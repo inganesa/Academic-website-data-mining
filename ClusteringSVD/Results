@@ -1,0 +1,56 @@
+CU - English
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+String origFolder = "/home/ramya/Documents/DataMining/English/2gram";
+int termCount =7065;
+int docCount =1010;
+rank 100
+num of clusters 10
+iterations 20
+
+Search term "MODERN", "CONTEMPORARY", "LITERATURE"
+
+Closest document vsm :/1076.txt 		http://english.colorado.edu/blog/2011/03/24/engl-3060-009-modern-contemporary-literature/
+Second closest document vsm :/1083.txt
+Third closest document vsm :/1179.txt
+
+Closest document svd :/931.txt 			http://english.colorado.edu/courses/spring-2012/
+Second closest document svd :/491.txt
+Third closest document svd :/904.txt
+
+Running Cluster results on general clusters
+Closest cluster index:9
+/2008.txt is the closest in this cluster 
+/136.txt is the second closest in this cluster 
+/524.txt is the third closest in this cluster 
+
+Running Cluster results on svd clusters
+Closest cluster index:4
+/931.txt is the closest in this cluster 
+/491.txt is the second closest in this cluster 
+/904.txt is the third closest in this cluster 
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+String origFolder = "/home/ramya/Documents/DataMining/English/1gram";
+int termCount =3927;
+int docCount =1010;
+rank 100
+Search term "MODERN", "CONTEMPORARY", "LITERATURE"
+num of clusters 10
+iterations 20
+
+Closest document svd :/1364.txt  http://english.colorado.edu/blog/2010/08/10/engl-5259-001-creative-nonfiction-workshop-reading-writing-telling-it-slant/
+Second closest document svd :/1732.txt
+Third closest document svd :/473.txt
+
+Running Cluster results on svd clusters
+Closest cluster index:0
+/1732.txt is the closest in this cluster 
+/473.txt is the second closest in this cluster 
+/25.txt is the third closest in this cluster 
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
